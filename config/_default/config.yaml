@@ -2,5 +2,5 @@ theme: bordeaux-theme
 _merge: deep
 params:
   logo:
-    header: "/assets/images/logo-system-colorfull.svg"
+    header: "/assets/images/logo-system-colors.svg"
     footer: "/assets/images/logo-system-white.svg"
