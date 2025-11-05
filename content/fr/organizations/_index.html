@@ -5,24 +5,26 @@ title: >-
   Organisations
 bodyclass: >-
    
-url: "/organisations/"
+url: "/"
 slug: "organisations"
+aliases:
+  - /organisations/
 date: 2025-10-31T12:01:17+01:00
-lastmod: 2025-10-31T12:01:19+01:00
+lastmod: 2025-11-05T12:12:31+01:00
 meta:
   hugo:
-    permalink: "/organisations/"
+    permalink: "/"
     path: "/organizations"
     file: "content/fr/organizations/_index.html"
     slug: "organisations"
   dates:
     created_at: 2025-10-31T12:01:17+01:00
-    updated_at: 2025-10-31T12:01:19+01:00
+    updated_at: 2025-11-05T12:12:31+01:00
     published_at: 2025-10-31T12:01:17+01:00
 search:
   id: "0632640a-a132-4d17-a886-e2b348626aae"
   about_id: "071cad6c-867e-40d4-a48f-0094815f6a8c"
-  url: "/organisations/"
+  url: "/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
   title: >-
@@ -36,8 +38,6 @@ breadcrumbs:
   - title: >-
       Accueil
     path: "/"
-  - title: >-
-      Organisations
 
 design:
   full_width: false
@@ -46,6 +46,10 @@ design:
     offcanvas: false
 
 
+build:
+  list: always
+  publishResources: true
+  render: never
 
 position: 2
 weight: 2
@@ -71,5 +75,39 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: organizations
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+    data:
+      layout: grid
+      description: >-
+        
+
+      options:
+        link: false
+        logo: true
+        summary: true
+        address: true
+        filters: false
+
+      organizations:
+        - permalink: "/iut-de-bordeaux/"
+          path: "/organizations/iut-de-bordeaux"
+          slug: "iut-de-bordeaux"
+          file: "content/fr/organizations/iut-de-bordeaux.html"
+          role: >-
+            
+
+      quantity: 1
+
+
 
 ---
