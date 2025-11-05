@@ -43,4 +43,11 @@ items:
     file: content/fr/pages/5-deroulement/_index.html
   path: "/"
   file: content/fr/_index.html
+- title: Aller plus loin
+  target: "/aller-plus-loin/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/aller-plus-loin"
+  file: content/fr/pages/aller-plus-loin/_index.html
 
