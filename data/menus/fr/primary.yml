@@ -1,25 +1,25 @@
 ---
 title: Menu principal
 items:
-- title: Sites internet de Départements
-  target: "/sites-internet-de-departements/"
+- title: Sites internet des Départements
+  target: "/"
   kind: page
   new_tab: false
   children:
   - title: 1. Introduction
-    target: "/sites-internet-de-departements/1-introduction/"
+    target: "/1-introduction/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/sites-internet-de-departements/1-introduction"
-    file: content/fr/pages/sites-internet-de-departements/1-introduction/_index.html
+    path: "/pages/1-introduction"
+    file: content/fr/pages/1-introduction/_index.html
   - title: 2. La solution Osuny
-    target: "/sites-internet-de-departements/2-la-solution-osuny/"
+    target: "/2-la-solution-osuny/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/sites-internet-de-departements/2-la-solution-osuny"
-    file: content/fr/pages/sites-internet-de-departements/2-la-solution-osuny/_index.html
-  path: "/pages/sites-internet-de-departements"
-  file: content/fr/pages/sites-internet-de-departements/_index.html
+    path: "/pages/2-la-solution-osuny"
+    file: content/fr/pages/2-la-solution-osuny/_index.html
+  path: "/"
+  file: content/fr/_index.html
 
