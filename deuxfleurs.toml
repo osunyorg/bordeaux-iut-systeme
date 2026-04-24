@@ -13,32 +13,3 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
-
-[[redirects]]
-from = "/sites-internet-de-departements/introduction/"
-to = "/1-introduction/"
-
-[[redirects]]
-from = "/personnes/laura-fernandez/"
-to = "/laura-fernandez/"
-
-[[redirects]]
-from = "/equipe-editoriale/"
-to = "/personnes/equipe-editoriale/"
-
-[[redirects]]
-from = "/sites-internet-de-departements/2-la-solution-osuny/"
-to = "/2-la-solution-osuny/"
-
-[[redirects]]
-from = "/personnes/alain-pierre-forsans/"
-to = "/alain-pierre-forsans/"
-
-[[redirects]]
-from = "/iut-de-bordeaux/"
-to = "/organisations/iut-de-bordeaux/"
-
-[[redirects]]
-from = "/sites-internet-de-departements/1-introduction/"
-to = "/1-introduction/"
-
